@@ -1,0 +1,7 @@
+# CDISC ODM Parser for Rave Web Service
+
+## Introduction
+Operational data in Medidata Rave EDC is available through RWS (REST API).
+
+## Purpose
+The objective is to obtain the operational data and generate analysis ready data frame.
