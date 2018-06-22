@@ -9,7 +9,7 @@
 library(RCurl);library(httr);require(XML);library(dplyr);library(RCurl);library(rvest);library(data.table)
 loginURL<-"https://xxxx"
 userid<-"stomioka"
-pass<-"airukun32"
+pass<-"xxx"
 studyOID<-"xxx"
 ###########FUNCTIONS########
 #get attr data
