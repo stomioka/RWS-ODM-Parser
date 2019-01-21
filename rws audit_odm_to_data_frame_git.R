@@ -100,7 +100,7 @@ auditurl<-unlist(auditurldata)
 #get rest of URL
 i<-2
 while (grepl("next",nexturl[["headers"]][["link"]])==TRUE){
-  nexturl<-GET(unlist(auditurl[[i-1]]),authenticate("stomioka", "airukun32"))
+  nexturl<-GET(unlist(auditurl[[i-1]]),authenticate("stomioka", pass))
   auditurl[i]<-substr(nexturl[["headers"]][["link"]],2,nchar(nexturl[["headers"]][["link"]])-13) 
   i<-i+1
 }
